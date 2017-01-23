@@ -7,4 +7,5 @@ def readName():
 	name = input("What is your name?: ")
 	greetName(name)
 
-	
+if __name__ == '__main__':
+	readName()	
